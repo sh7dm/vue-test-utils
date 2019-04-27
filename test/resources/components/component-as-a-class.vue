@@ -11,7 +11,9 @@ import Component from 'vue-class-component'
     propMessage: String
   }
 })
-export default class App extends Vue {
+class App extends Vue {
   msg = 123
 }
+
+export default App
 </script>

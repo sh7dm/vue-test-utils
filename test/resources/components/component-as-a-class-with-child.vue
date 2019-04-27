@@ -14,5 +14,7 @@ import AComponent from './component.vue'
     AComponent
   }
 })
-export default class CogPage extends Vue {}
+class CogPage extends Vue {}
+
+export default CogPage
 </script>

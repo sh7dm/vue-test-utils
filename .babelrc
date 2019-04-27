@@ -1,5 +1,13 @@
 {
-  "presets": ["env", "stage-2", "flow-vue"],
-  "plugins": ["transform-decorators-legacy", "transform-vue-jsx"],
-  "comments": false
+  "presets": [
+    "@babel/env",
+    "@babel/typescript",
+    "@vue/babel-preset-jsx"
+  ],
+  "plugins": [
+    ["@babel/proposal-decorators", { "legacy": true }],
+    "@babel/syntax-dynamic-import",
+    "@babel/proposal-class-properties"
+  ],
+  "comments": false,
 }
